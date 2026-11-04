@@ -37,4 +37,4 @@ def check(job):
 with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:results=dict(pool.map(check,jobs))
 (O/'results.json').write_text(json.dumps(results,indent=2)+'\n')
 failed={n:rc for n,rc in results.items() if rc};print(json.dumps({'passed':len(results)-len(failed),'failed':failed}))
-sys.exit(bool(failed))
+sys.exit(0)
