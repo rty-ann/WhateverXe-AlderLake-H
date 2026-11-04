@@ -1,5 +1,8 @@
 # WhateverXe
 
+## fork from elezorn(https://github.com/Elezorn/WhateverXe-TigerLakeH) and applied fixes by hytthynn(https://github.com/hytthynn)
+(this fixes are made by ai(google))
+
 [日本語](README_ja.md)
 
 WhateverXe is a Lilu plugin, derived from WhateverGreen, that adapts Apple graphics drivers for selected Intel Xe-LP integrated GPUs.
